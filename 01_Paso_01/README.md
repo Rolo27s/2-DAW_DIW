@@ -55,3 +55,38 @@ MOTIVACIONES Y COMPORTAMIENTOS DE TUS VISITANTES.
 * Perfil 2: Niño 12 años
 * Perfil 3: Mujer 20 años
 * Perfil 4: Hombre 60 años
+
+**Los perfiles 1 y 4** se pareceran bastante. Su principal motivación será conocer el estado actual del equipo y que está planeado para un futuro próximo (proximos partidos, ultimos resultados, noticias...). También querrán acceder a compra de tickets o PPV (pay per views) y los más exigentes buscarán merchandising y fotos o videos relacionados con el equipo.
+
+Al cubrir las necesidades del grupo 1 y 4, terminamos generando un producto bastante completo y se aprovecha bastante las posibilidades que tiene este escenario.
+
+**El perfil 2** destacará por querer ver fotos y videos dinámicos y que llamen la atención. Colores llamativos y más interacción con la página. Sería posible aumentar la interacción con elementos del DOM para tratar de aumentar la retención de estos perfiles. No se debe caer en aumentar la complejidad de la página en funcionalidades, ya que siempre la prioridad será la accesibilidad.
+
+**El perfil 3** querrá acceder para ver el estado actual del equipo y los escenarios más cercanos. También hará uso de la tienda y la venta de entradas. No se contempla demasiadas necesidades concretas de este perfil. Podría ser interesante facilitar información de tipo inclusivo para equipos de futbol americano femenino y flag. Podría interesarle ingresar en staff de animación.
+
+Otros perfiles posibles se considerarán minoritarios y de momento se trabajarán con los perfiles mencionados. Queda abierto opciones de ingresar nuevos perfiles.
+
+4. REALIZA UN ANÁLISIS DE LA COMPETENCIA PARA IDENTIFICAR TENDENCIAS
+DE DISEÑO Y ELEMENTOS QUE FUNCIONAN BIEN EN TU NICHO.
+
+Revisando las páginas web de la NFL americana, todas están cortadas por el mismo patrón, aunque es cierto que tienen detalles diferenciadores.
+
+La principal característica es que tienen el mismo maquetado base con tamaños claros y definidos. Cada sección es claramente diferenciable de la otra.
+
+Tienen colores llamativos y fotos/videos que llaman la atención.
+
+Suelen trabajar con galería de imagenes y sliders horizontales de una fila con noticias anunciadas con imagenes que las represente y un pequeño titular.
+
+En el footer quedan representado los partners
+
+Al ser un deporte de alta carga estadounidense, creo necesario que la página tenga opciones de accesibilidad de idioma. El inglés debe estar implementado como condición de navegación, de tal manera que cualquier persona que sepa inglés pueda entender todo el contenido de la web.
+
+5. ESTABLECE METAS CLARAS Y MEDIBLES PARA TU GUÍA DE ESTILOS WEB,
+COMO MEJORAR LA RETENCIÓN DE USUARIOS O AUMENTAR LAS
+CONVERSIONES
+
+El equipo fuengirola potros es una pequeña version de los denver broncos en la mayoría de los aspectos. La primera meta a alcanzar sería imitar de manera general la web de los denver broncos. En un segundo sprint se debería de ir afinando cada componente de los broncos como por ejemplo el submenu de Stadium/App/Cheerleaders/...
+
+En cuanto a retención de usuarios y aumento de conversiones, al no tener capacidad de estudio de mercado en este momento, imitaremos el estilo general de las webs de NFL, confiando en que ellos si hiciesen ese estudio.
+
+Una vez se tenga esto implementado, se pueden ir probando ideas nuevas con bases lógicas y tendencias estadísticas del mercado controlando las métricas.

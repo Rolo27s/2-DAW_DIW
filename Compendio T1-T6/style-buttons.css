@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+/* body {
+    margin: 0.5rem 10%;
+} */
+
+/* BOTONES */
+.button-container {
+    display: inline-flex;
+    margin: 1rem 0rem;
+    gap: 2rem;
+}
+
+.button-size {
+    width: 125px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.button-size:hover {
+    opacity: 0.8;
+}
+
+.button-class11 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #085C16;
+}
+
+.button-class21 {
+    background-color: #FCB215;
+    border: 1px solid #085C16;
+    color: #06342D;
+}
+
+.button-class31 {
+    background-color: #06342D;
+    border: 1px solid #FCB215;
+    color: #FCB215;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #151515;
+    font-weight: 600;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #333333;
+}

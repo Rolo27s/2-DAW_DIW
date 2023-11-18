@@ -230,4 +230,102 @@ main {
     color: #FCB215;
 }
 
-/* A width 1115px necesito responsive. Modificar el Nav y el banner. */
+.hidden {
+    display: none;
+}
+
+#hamburguer-btn {
+    cursor: pointer;
+}
+/* --------------------------------------------- */
+/* A width 1115px necesito responsive. Modificar el Nav, banner... */
+/* --- RESPONSIVE DESIGN CSS --- */
+/* --------------------------------------------- */
+@media (max-width: 1115px) {
+    .banner {
+        width: 100vw;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    main {
+        margin: 40px 20px;
+    }
+
+    /* --------------------------------------------- */
+    /* --- NAV --- */
+    /* --------------------------------------------- */
+    .header-nav {
+        padding: 0rem 1rem;
+    }
+
+    .header-nav ul {
+        padding: 0;
+    }
+    .header-nav ul li{
+        display: none;
+    }
+    
+    #nav-logo {
+        display: block;
+    }
+
+    #nav-tienda {
+        order: 1;
+        display: block;
+    }
+    #nav-entradas {
+        order: 2;
+        display: block;
+    }
+
+    #li-hamburguer-btn {
+        order: 3;
+        display: block;
+        /* width: 20px; */
+    }
+
+    /* --------------------------------------------- */
+    /* --- NEXT MACH ---*/
+    /* --------------------------------------------- */
+    .next-mach {
+        grid-template-columns: 1fr;
+                justify-items: start;
+    }  
+
+    .next-mach > * {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .next-mach_buttons {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem 0rem;
+        gap: 0.5rem;
+        justify-self: center;
+    }
+
+    .next-mach_home_info {
+        order: 2;
+    }
+
+    .next-mach_home_info + img, .next-mach_visiting img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .next-mach_home_info, .next-mach_home_info h2 {
+        align-items: start;
+        text-align: start;
+    }
+
+    .button-class21 {
+        height: 60px;
+    }
+
+    #Visiting_team, #Home_team {
+        font-size: 1rem;
+    }
+}

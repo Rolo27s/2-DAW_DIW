@@ -48,7 +48,7 @@
             <!-- El nav debe ser sticky top -->
             <nav class="header-nav">
                 <ul>
-                    <li><img src="/assets/logoEdit.png" alt="logo" class="logo-nav" /></li>
+                    <li id="nav-logo"><img src="/assets/logoEdit.png" alt="logo" class="logo-nav" /></li>
                     <li><a href="#Top">Noticias</a></li>
                     <li><a href="#Top">Video</a></li>
                     <li><a href="#Top">Podcasts</a></li>
@@ -63,8 +63,11 @@
                 <ul>
                     <li><a href="#Top">Ver</a></li>
                     <li><a href="#Top">Socios</a></li>
-                    <li><a href="#Top">Entradas</a></li>
-                    <li><a href="#Top">Tienda</a></li>
+                    <li id="nav-entradas"><a href="#Top">Entradas</a></li>
+                    <li id="nav-tienda"><a href="#Top">Tienda</a></li>
+                    <li class="hidden" id="li-hamburguer-btn">
+                        <img id="hamburguer-btn" src="/assets/hamburguer-btn.png" alt="hamburguer-btn" height="28px" />
+                    </li>
                 </ul>
             </nav>
         </header>

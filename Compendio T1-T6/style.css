@@ -204,8 +204,39 @@ footer {
     color: var(--color-secundario-2);
 }
 
-/* @media (width <= 717) {
-    .flex-container {
+@media (max-width: 740px) {
+    .sticky-container {
+        display: none;
+    }
+
+    .flex-container-main {
+        width: 100vw;
+    }
+
+    article, div {
+        padding: 0.3rem;
+    }
+
+    .paso5-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .paso5-flex-container {
         flex-direction: column;
     }
-} */
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contenido-paso-2 ul li {
+        font-size: 0.75rem;
+    }
+
+    #contenido-paso-2 ul li b{
+        display: none;
+    }
+}

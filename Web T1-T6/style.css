@@ -18,6 +18,8 @@
 
 html {
     background-color: #EEEEEE;
+    /* Parcheada macabra. No se por que se me va un poco de ancho. Debe ser algún border o cosa pequeña */
+    overflow-x: hidden;
 }
 
 body {
@@ -25,6 +27,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    position: sticky;
+    top: -175px;
 }
 
 /* --------------------------------------------- */
@@ -281,6 +288,46 @@ main {
 #hamburguer-btn {
     cursor: pointer;
 }
+
+.lorem {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.footer-container-1 {
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    gap: 6rem;
+    justify-content: center;
+    background-color: #151515;
+}
+
+.footer-container-1 li, .footer-container-2 li {
+    padding: 1rem;
+}
+
+.footer-container-1 li a, .footer-container-2 li a {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.footer-container-2 li a {
+    font-size: .8rem;
+}
+
+.footer-container-1 li:first-child {
+    border-bottom: 3px solid white;
+}
+
+.footer-container-2 {
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    background-color:#222222;
+}
 /* --------------------------------------------- */
 /* A width 1115px necesito responsive. Modificar el Nav, banner... */
 /* --- RESPONSIVE DESIGN CSS --- */
@@ -375,5 +422,10 @@ main {
 
     #Visiting_team, #Home_team {
         font-size: 1rem;
+    }
+
+    header {
+        position: sticky;
+        top: -50px;
     }
 }

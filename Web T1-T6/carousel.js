@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let currentIndex = 0;
 
   function updateCarousel() {
-    carousel.style.transform = `translateX(${-currentIndex * 100}%)`;
+    carousel.style.transform = `translateX(${-currentIndex * 25}%)`; // 100% / 4 slides = 25%
 
     // Update dots
     dots.forEach((dot, index) => {
@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function showNext() {
-    currentIndex = (currentIndex + 1) % carousel.children.length;
+    currentIndex = (currentIndex + 1) % dots.length;
     updateCarousel();
   }
 
   function showPrevious() {
-    currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+    currentIndex = (currentIndex - 1 + dots.length) % dots.length;
     updateCarousel();
   }
 

@@ -293,6 +293,61 @@ main {
     font-size: 30px;
     line-height: 60px;
 }
+/* --------------------------------------------- */
+/* --- CAROUSEL --- */
+/* --------------------------------------------- */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.counter {
+  display: flex;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.arrow {
+    color: #bbb;
+}
+
+/* --------------------------------------------- */
+/* --- FOOTER --- */
+/* --------------------------------------------- */
 
 .footer-container-1 {
     width: 100vw;
@@ -328,6 +383,44 @@ main {
     justify-content:space-evenly;
     background-color:#222222;
 }
+
+.footer-flex-container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+}
+
+.footer-flex-container-column img {
+    width: 120px;
+    height: 120px;
+    padding: 1rem;
+}
+
+.footer-flex-container-column h5 {
+    font-weight: 100;
+    color: white;
+    font-size: .7rem;
+    padding: .5rem;
+}
+
+.footer-container-3 {
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 3rem;
+    background-color:var(--color-principal);
+    padding: 1rem 0rem 3rem;
+}
+
+.footer-container-3 li a {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: .7rem;
+}
+
 /* --------------------------------------------- */
 /* A width 1115px necesito responsive. Modificar el Nav, banner... */
 /* --- RESPONSIVE DESIGN CSS --- */
@@ -428,4 +521,16 @@ main {
         position: sticky;
         top: -50px;
     }
+
+    /* --------------------------------------------- */
+    /* --- FOOTER ---*/
+    /* --------------------------------------------- */
+    .footer-container-1,  .footer-container-2,  .footer-container-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
 }
+
+    
